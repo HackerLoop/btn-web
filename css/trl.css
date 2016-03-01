@@ -1,0 +1,44 @@
+.blue {
+	background-color: #FBFBFB; /*#336098*/
+	color: #336098;
+	text-align: left;
+	padding-left: 8.33333%;
+}
+
+
+.wrap {
+	min-height: 100%;
+	padding-top: 90px;
+	padding-bottom: 45px;
+}
+
+.logo {
+	margin-bottom: 90px;
+	opacity: 1;
+}	
+
+.lead {
+	padding-right: 30px;
+}
+
+.form-wrapper {
+	max-width: 300px;
+}
+
+.blue input {
+	max-width: 300px;
+}
+
+.archives {
+	display: none;
+}
+
+.spacer {
+	height: 100px;
+	width: 100%;
+	display: block;
+}
+
+.fb-share-button {
+	display: inline-block;
+}
