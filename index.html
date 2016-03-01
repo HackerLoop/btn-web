@@ -23,13 +23,25 @@
     <![endif]-->
   </head>
   <body>
+    <script type="text/javascript">      
+
+    $(document).ready(function(){
+
+        $('.scrollTo').click( function() { // Au clic sur un élément
+          var page = $(this).attr('href'); // Page cible
+          var speed = 750; // Durée de l'animation (en ms)
+          $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+          return false;
+        });
+    </script>
+
     <nav class="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">
           <img alt="Brand" src="...">
         </a>
-        <button type="button" class="btn btn-default navbar-btn navbar-right">Sign in</button>
+          <a class="typeform-share button btn buy navbar-right" href="https://slackthings.typeform.com/to/dp94cE" data-mode="2" target="_blank">Get yours</a>
       </div>
     </div>
     </nav>
@@ -39,7 +51,7 @@
         <h1>This is a 15<span class="glyphicon glyphicon-euro"></span> button for your desk. <br>
           It can do anything. It knows no limits.
         </h1>
-        <img src="img/bigredbutton.jpg" class="center-block">
+        <a class="scrollTo" href="#go"><img src="img/bigredbutton.jpg" class="center-block"></a>
 
         <p class="lead prompt hidden">Push button to see examples<br></p>
 
@@ -47,10 +59,10 @@
 
         <p class="lead product-desc">Setup once, works with everything. <br> Use it to trigger your usual Zapier and IFTTT flows, or create new ones.</p>
 
-        <a class="typeform-share button btn btn-lg btn-default cta-main" href="https://slackthings.typeform.com/to/dp94cE" data-mode="2" target="_blank">I would use this</a>
+        <a class="typeform-share button btn buy" href="https://slackthings.typeform.com/to/dp94cE" data-mode="2" target="_blank">I would use this</a>
 
       </div>
-      <div class="row three-col grey">
+      <div class="row three-col grey" id="go">
         <h1>And here is where it gets interesting:</h1>
         <p class="lead box">We're making a button to help you perform everyday tasks just by pushing it. <br>
 This satisfying-tp-push glowy red button could be yours for $15! <br></p>

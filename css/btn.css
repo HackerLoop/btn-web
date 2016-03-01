@@ -3,7 +3,7 @@ body {
 }
 
 .hero {
-	padding-top: 60px;
+	padding-top: 45px;
 	padding-bottom: 45px;
 }
 
@@ -84,3 +84,29 @@ h1, h2, h3, .cta-main, .prompt {
 	cursor: pointer; 
 }
 
+.navbar-header {
+	width: 100%;
+	padding: 15px;
+}
+
+.buy {
+	font-family: 'Palanquin', sans-serif;
+    border-radius: 50px;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: #D32F2F;
+    text-transform: uppercase;
+    height: 36px;
+    border: 1px solid #D32F2F;
+    line-height: 24px;
+}
+
+.buy:hover {
+	background-color: #D32F2F;
+	color: #FFFFFF;
+}
+
+.buy:active {
+	background-color: #D32F2F;
+
+}
