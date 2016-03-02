@@ -114,11 +114,27 @@ h1, h2, h3, .cta-main, .prompt {
 
 }
 
+.main {
+	background-color: #D32F2F;
+	color: #FFFFFF;
+	height: 48px;
+	width: 300px;
+	font-size: 18px;
+	line-height: 36px;
+}
+
 .box-text {
 	max-width: 300px;
 	margin: auto;
 }
 
-.mc-field-group {
+#mc_embed_signup {
+	width: 400px;
+	margin: auto;
+	text-align: left;
+}
+
+#mc_embed_signup input {
+	width: 100%;
 }
 
