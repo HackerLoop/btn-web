@@ -23,12 +23,33 @@
     <![endif]-->
   </head>
   <body>
+  <!-- fb sdk -->
+  <div id="fb-root"></div>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '200853643609525',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  </script>
     <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <img alt="Brand" src="...">
-        </a>
+        <div class="share-zone navbar-left">
+          <a class="twitter-share-button " href="https://twitter.com/intent/tweet?text=A%20big%20red%20button%20that%20knows%20no%20limits:%20http://button.pm&related=raphisky"> Share</a>
+          <div class="fb-share-button" data-href="http://button.om" data-layout="button"></div>
+        </div>
+
           <a class="typeform-share button btn buy navbar-right hidden-xs" href="https://slackthings.typeform.com/to/dp94cE" data-mode="2" target="_blank">Get yours</a>
       </div>
     </div>
@@ -84,6 +105,25 @@ This satisfying-tp-push glowy red button could be yours for $15! <br></p>
 
     <!-- typeform -->
     <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+    <!-- Twitter -->
+        <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+       
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+       
+        return t;
+      }(document, "script", "twitter-wjs"));
+      </script>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
