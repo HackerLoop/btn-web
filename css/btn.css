@@ -1,5 +1,6 @@
 body {
 	text-align: center;
+	padding-top: 70px;
 }
 
 .hero {
@@ -18,12 +19,13 @@ body {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	height: 220px;
-	line-height: 220px; 
+	width: 220px;
+	line-height: 220px;
 }
 
 .thumbnail-img img {
-	width: 220px;
-	height: auto;
+	clip: rect(0px, 220px, 220px, 0px);
+	height: 220px;
 }
 
 h1 .glyphicon {
@@ -115,5 +117,4 @@ h1, h2, h3, .cta-main, .prompt {
 	max-width: 300px;
 	margin: auto;
 }
-
 
