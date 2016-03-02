@@ -110,3 +110,10 @@ h1, h2, h3, .cta-main, .prompt {
 	background-color: #D32F2F;
 
 }
+
+.box-text {
+	max-width: 300px;
+	margin: auto;
+}
+
+

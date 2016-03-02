@@ -23,18 +23,6 @@
     <![endif]-->
   </head>
   <body>
-    <script type="text/javascript">      
-
-    $(document).ready(function(){
-
-        $('.scrollTo').click( function() { // Au clic sur un élément
-          var page = $(this).attr('href'); // Page cible
-          var speed = 750; // Durée de l'animation (en ms)
-          $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-          return false;
-        });
-    </script>
-
     <nav class="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -72,7 +60,7 @@ This satisfying-tp-push glowy red button could be yours for $15! <br></p>
           <div class="thumbnail-img">
             <img src="img/plug_play.gif" class="img-circle img-responsive">
           </div>
-          <p class="lead">No account creation, just a lightweight, secure Mac app. <br>Unbox it, plug it, use it</p>
+          <p class="lead box-text">No account creation, just a lightweight, secure Mac app. <br>Unbox it, plug it, use it</p>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12 box">
           <h2>Open source</h2>
@@ -80,14 +68,14 @@ This satisfying-tp-push glowy red button could be yours for $15! <br></p>
             <img src="img/pressing.gif" class="img-circle img-responsive">
 
           </div>
-          <p class="lead">We're here to help you explore, you'll help us make it better.</p>
+          <p class="lead box-text">We're here to help you explore, you'll help us make it better.</p>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12 box">
           <h2>Satisfying to push</h2>
           <div class="thumbnail-img">
             <img src="img/sucess.gif" class="img-circle img-responsive">
           </div>
-          <p class="lead">The more, the merrier.</p>
+          <p class="lead box-text">The more, the merrier.</p>
         </div> 
       </div>
 
@@ -101,6 +89,20 @@ This satisfying-tp-push glowy red button could be yours for $15! <br></p>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script type="text/javascript">      
+
+    <!-- scroll behavior -->
+
+    $(document).ready(function(){
+
+        $('.scrollTo').click( function() { // Au clic sur un élément
+          var page = $(this).attr('href'); // Page cible
+          var speed = 750; // Durée de l'animation (en ms)
+          $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+          return false;
+        });
+    </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
