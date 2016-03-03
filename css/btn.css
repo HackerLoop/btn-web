@@ -27,11 +27,6 @@ body {
 	line-height: 220px;
 }
 
-.thumbnail-img img {
-	clip: rect(0px, 220px, 220px, 0px);
-	height: 220px;
-}
-
 h1 .glyphicon {
 	font-size: 24px;
 }
