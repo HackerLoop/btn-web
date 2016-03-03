@@ -88,7 +88,6 @@ h1, h2, h3, .cta-main, .prompt {
 
 .navbar-header {
 	width: 100%;
-	padding: 15px;
 }
 
 .buy {
@@ -119,7 +118,7 @@ h1, h2, h3, .cta-main, .prompt {
 	height: 48px;
 	width: 300px;
 	font-size: 18px;
-	line-height: 36px;
+	line-height: 32px;
 }
 
 .box-text {
@@ -145,3 +144,25 @@ h1, h2, h3, .cta-main, .prompt {
 	margin-right: auto;
 }
 
+.lettering {
+	font-family: 'Palanquin', sans-serif;
+	vertical-align: middle;
+	font-weight: 600;
+	color: #D32F2F;
+	font-size: 24px;
+	line-height: 75px;
+}
+
+.navbar {
+	border-bottom: solid 1px #D32F2F;
+	background-color: #FFFFFF;
+}
+
+.navbar-cta {
+	line-height: 75px;
+	padding-right: 15px;
+}
+
+.share-zone {
+	display: inline-block;
+}
