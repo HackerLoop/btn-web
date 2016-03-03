@@ -133,7 +133,8 @@ h1, h2, h3, .cta-main, .prompt {
 }
 
 #mc_embed_signup {
-	width: 400px;
+	max-width: 400px;
+	width: 80%;
 	margin: auto;
 	text-align: left;
 }
