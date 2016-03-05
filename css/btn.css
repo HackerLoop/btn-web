@@ -169,7 +169,7 @@ h1, h2, h3, .cta-main, .prompt {
 }
 
 .share-zone {
-	display: inline-block;
+	display: none;
 	line-height: 20px;
 	padding-top: 10px;
 }
