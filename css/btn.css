@@ -2,6 +2,16 @@ body {
 	text-align: center;
 }
 
+h1 .glyphicon {
+	font-size: 24px;
+}
+
+h1, h2, h3, .cta-main, .prompt {
+	font-family: 'Palanquin', sans-serif;
+	font-weight: 700;
+}
+
+
 .hero {
 	padding-top: 45px;
 	padding-bottom: 45px;
@@ -26,29 +36,25 @@ body {
 	line-height: 220px;
 }
 
-h1 .glyphicon {
-	font-size: 24px;
-}
-
-
 .three-col {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 footer img {
-	height: 40px;
+	height: 30px;
 	display: inline-block;
 }
 
 footer {
-	line-height: 40px;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	text-align: right;
 }
 
-footer p {
+footer .lead {
 	font-size: 13px;
+	line-height: 20px;
 }
 
 .box {
@@ -77,13 +83,8 @@ footer p {
 .hero a:hover {
 	text-decoration: none;
 	color: #FFFFFF;
-
 }
 
-h1, h2, h3, .cta-main, .prompt {
-	font-family: 'Palanquin', sans-serif;
-	font-weight: 700;
-}
 
 .prompt {
 	cursor: pointer; 
@@ -175,4 +176,8 @@ h1, h2, h3, .cta-main, .prompt {
 	display: none;
 	line-height: 20px;
 	padding-top: 10px;
+}
+
+.ex-wrapper {
+	text-align: left;
 }
