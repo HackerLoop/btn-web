@@ -198,4 +198,7 @@ EXAMPLES
 
 .example .glyphicon {
 	top: 3px;
+	color: #D32F2F;
+	cursor: pointer;
+	padding-left: 3px;
 }
