@@ -173,10 +173,30 @@ footer .lead {
 }
 
 .share-zone {
-	display: inline-block;
+	display: none;
 	line-height: 20px;
+	padding-top: 10px;
 }
+
+
+/* **********
+EXAMPLES
+********** */
 
 .ex-wrapper {
 	text-align: left;
+	padding-bottom: 45px;
+}
+
+.example:hover {
+	background-color: #F8F8F8;
+}
+
+.example {
+	padding: 10px 0px 10px 0px;
+	font-weight: 600;
+}
+
+.example .glyphicon {
+	top: 3px;
 }
