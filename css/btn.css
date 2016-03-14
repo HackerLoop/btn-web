@@ -47,8 +47,7 @@ footer img {
 }
 
 footer {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 30px 15px 30px 15px;
 	text-align: right;
 }
 
@@ -113,7 +112,6 @@ footer .lead {
 
 .buy:active {
 	background-color: #D32F2F;
-
 }
 
 .main {
