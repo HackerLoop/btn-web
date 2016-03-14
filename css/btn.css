@@ -206,5 +206,6 @@ EXAMPLES
 }
 
 .example:hover .btn-default {
-	bac
+	background-color: #D32F2F;
+	color: #FFFFFF;
 }
