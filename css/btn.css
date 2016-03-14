@@ -200,3 +200,14 @@ EXAMPLES
 	cursor: pointer;
 	padding-left: 3px;
 }
+
+.example .btn-default {
+	border-color: #777;
+	color: #777;
+	background: #FFFFFF;
+}
+
+.example:hover .btn-default {
+	background-color: #D32F2F;
+	color: #FFFFFF;
+}
