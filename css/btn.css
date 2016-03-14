@@ -114,6 +114,12 @@ footer .lead {
 	background-color: #D32F2F;
 }
 
+.example .buy {
+	width: 120px;
+	height: 30px;
+	line-height: 16px;
+}
+
 .main {
 	background-color: #D32F2F;
 	color: #FFFFFF;
