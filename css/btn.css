@@ -144,6 +144,7 @@ footer .lead {
 	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0px 10px 0px 10px;
 }
 
 .lettering {
@@ -190,8 +191,9 @@ EXAMPLES
 }
 
 .example {
-	padding: 10px 0px 10px 0px;
+	padding: 10px 5px 10px 0px;
 	font-weight: 600;
+	border-radius: 4px;
 }
 
 .example .glyphicon {
