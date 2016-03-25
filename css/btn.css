@@ -23,6 +23,18 @@ h1, h2, h3, .cta-main, .prompt {
 	cursor: pointer;
 }
 
+.announcement {
+	width: 100%;
+	display: block;
+	color: #FFFFFF;
+	background-color: red;
+}
+
+	.announcement h3 {
+		margin-top: 0px;
+		} 
+
+
 .brands {
 	padding-bottom: 45px;
 }
